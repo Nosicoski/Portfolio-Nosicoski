@@ -320,7 +320,7 @@ document.addEventListener("DOMContentLoaded", () => {
       description: "Descripción del segundo proyecto. Destaca las características clave y tu rol en el desarrollo.",
       image: "/PROYECTO 4.png",
       link: "https://proyecto2.com",
-      tags: ["TypeScript", "Next.js", "PostgreSQL"],
+      tags: ["React"],
     },
     {
       title: "Api Rest Clinica Odontologica",
@@ -334,7 +334,7 @@ document.addEventListener("DOMContentLoaded", () => {
       description: "Descripción del segundo proyecto. Destaca las características clave y tu rol en el desarrollo.",
       image: "/PROYECTO 6.png",
       link: "https://proyecto2.com",
-      tags: ["TypeScript", "Next.js", "PostgreSQL"],
+      tags: ["React", "Next.js"],
     },
   ]
 
