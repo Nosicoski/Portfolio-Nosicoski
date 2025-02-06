@@ -297,7 +297,6 @@ document.addEventListener("DOMContentLoaded", () => {
       description:
         "Lector de dedos con entrenamiento de inteligencia artificial 🤖.",
       image: "/PROYECTO 1.png",
-      link: "https://proyecto1.com",
       tags: ["Python", "Mediapipe", "OpenCV "],
     },
    
@@ -305,35 +304,30 @@ document.addEventListener("DOMContentLoaded", () => {
       title: "E-commerce De Vestimenta",
       description: "Software de gestion que consume una api, con control de usuarios y cifrado.",
       image: "/PROYECTO 3.1.png",
-      link: "https://proyecto2.com",
       tags: ["JavaScript", "Bcrypt "],
     },
     {
       title: "Software Clinica Pediatrica",
       description: "Descripción del segundo proyecto. Destaca las características clave y tu rol en el desarrollo.",
       image: "/PROYECTO 5.png",
-      link: "https://proyecto2.com",
       tags: ["TypeScript", "Next.js", "H2", "Java", "Spring Boot", "React"],
     },
     {
       title: "Blog De Astro",
       description: "Descripción del segundo proyecto. Destaca las características clave y tu rol en el desarrollo.",
-      image: "/PROYECTO 4.png",
-      link: "https://proyecto2.com",
+      image: "/PROYECTO 4.png", 
       tags: ["React"],
     },
     {
       title: "Api Rest Clinica Odontologica",
       description: "Descripción del segundo proyecto. Destaca las características clave y tu rol en el desarrollo.",
       image: "/PROYECTO2.jpg",
-      link: "https://proyecto2.com",
       tags: ["java", "SpringBoot", "SQL","JavaScript","Postman","Junit","Mockito"],
     },
     {
       title: "Software De Gestion De Tareas",
       description: "Descripción del segundo proyecto. Destaca las características clave y tu rol en el desarrollo.",
       image: "/PROYECTO 6.png",
-      link: "https://proyecto2.com",
       tags: ["React", "Next.js"],
     },
   ]
