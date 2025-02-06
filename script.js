@@ -290,4 +290,75 @@ document.addEventListener("DOMContentLoaded", () => {
     })
   })
   
-  
+  // Datos de los proyectos
+  const projects = [
+    {
+      title: "Lector De Dedos",
+      description:
+        "Lector de dedos con entrenamiento de inteligencia artificial 🤖.",
+      image: "/PROYECTO 1.png",
+      link: "https://proyecto1.com",
+      tags: ["Python", "Mediapipe", "OpenCV "],
+    },
+   
+    {
+      title: "E-commerce De Vestimenta",
+      description: "Software de gestion que consume una api, con control de usuarios y cifrado.",
+      image: "/PROYECTO 3.1.png",
+      link: "https://proyecto2.com",
+      tags: ["JavaScript", "Bcrypt "],
+    },
+    {
+      title: "Software Clinica Pediatrica",
+      description: "Descripción del segundo proyecto. Destaca las características clave y tu rol en el desarrollo.",
+      image: "/PROYECTO 5.png",
+      link: "https://proyecto2.com",
+      tags: ["TypeScript", "Next.js", "H2", "Java", "Spring Boot", "React"],
+    },
+    {
+      title: "Blog De Astro",
+      description: "Descripción del segundo proyecto. Destaca las características clave y tu rol en el desarrollo.",
+      image: "/PROYECTO 4.png",
+      link: "https://proyecto2.com",
+      tags: ["TypeScript", "Next.js", "PostgreSQL"],
+    },
+    {
+      title: "Api Rest Clinica Odontologica",
+      description: "Descripción del segundo proyecto. Destaca las características clave y tu rol en el desarrollo.",
+      image: "/PROYECTO2.jpg",
+      link: "https://proyecto2.com",
+      tags: ["java", "SpringBoot", "SQL","JavaScript","Postman","Junit","Mockito"],
+    },
+    {
+      title: "Software De Gestion De Tareas",
+      description: "Descripción del segundo proyecto. Destaca las características clave y tu rol en el desarrollo.",
+      image: "/PROYECTO 6.png",
+      link: "https://proyecto2.com",
+      tags: ["TypeScript", "Next.js", "PostgreSQL"],
+    },
+  ]
+
+  // Función para crear las tarjetas de proyectos
+  function createProjectCards() {
+    const container = document.querySelector(".projects-container")
+    projects.forEach((project) => {
+      const card = document.createElement("div")
+      card.className = "project-card"
+      card.innerHTML = `
+                <img src="${project.image}" alt="${project.title}" class="project-image">
+                <div class="project-info">
+                    <h3 class="project-title">${project.title}</h3>
+                    <p class="project-description">${project.description}</p>
+                    <div class="project-tags">
+                        ${project.tags.map((tag) => `<span class="project-tag">${tag}</span>`).join("")}
+                    </div>
+                </div>
+            `
+      card.addEventListener("click", () => window.open(project.link, "_blank"))
+      container.appendChild(card)
+    })
+  }
+
+  // Llamar a la función para crear las tarjetas de proyectos
+  createProjectCards()
+
